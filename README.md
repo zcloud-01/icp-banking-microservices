@@ -98,7 +98,7 @@ The objective is to discover the banking application located in the *banking-app
 
 3. Clone your GitHub repository *zcloud.<nn>-icp-banking-microservices* to create a local copy of the banking application:
 
-   `git clone https://github.com/techu2019/zcloud.<nn>-icp-banking-microservices`
+   `git clone https://github.com/zcloud-01/zcloud.<nn>-icp-banking-microservices`
   	
 5. Take a look at the *banking-application* folder:
 
