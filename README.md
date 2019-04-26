@@ -104,7 +104,7 @@ The objective is to discover the banking application located in the *banking-app
 
    `cd zcloud<nn>-icp-banking-microservices/banking-application`
    
-   `dir `
+   `dir ` or `ls'
        
   	* *app.js*: the application server code.
 	* *public/index.html*: the application client code (banking dashboard).
@@ -116,26 +116,11 @@ The objective is to discover the banking application located in the *banking-app
 	
 ## Part 2 - Subscribe to the banking API through the API Developer Portal
 
-1. Sign up for an [IBM ID] if you don't have one already.
-
-2. Go to the [API Developer Portal].
-
-3. Create an account if you have not done that already.
-
-   ![alt text](images/createAccount.png "Create Account")
-   
-   * Click **Create an Account**.
-   
-   * Provide all required information. Be sure to use your IBM ID (email address) for this account.
-   
-   * Click **Submit**.
-  
-   An account activation email will be sent to your registered IBM ID email. Click on the link in this email to activate your account.
+1. Go to the [API Developer Portal].
 
 4. Login to your account.
 
 5. Create a new application.
-   ![alt text](images/createApplication.png "Create Application")
    
    * Click **Apps** from the menu.
    
