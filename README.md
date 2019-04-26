@@ -180,9 +180,9 @@ The objective is to discover the banking application located in the *banking-app
 
 ## Part 3 - Run the banking application with Node.js
 
-1. Go to the banking application directory, if you are not already.   
+1. Go to the banking application directory, if you are not there already.   
 
-    `cd ICp-banking-microservices/banking-application`
+    `cd zcloud<nn>-icp-banking-microservices/banking-application`
 
 2. Install Node.Js package dependencies of the banking application using : 
 
