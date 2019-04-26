@@ -96,13 +96,13 @@ The objective is to discover the banking application located in the *banking-app
 
 1. Launch a terminal (Command Prompt).
 
-3. Clone your GitHub repository *zcloud.<nn>-icp-banking-microservices* to create a local copy of the banking application:
+3. Clone your GitHub repository *zcloud<nn>-icp-banking-microservices* to create a local copy of the banking application:
 
-   `git clone https://github.com/zcloud-01/zcloud.<nn>-icp-banking-microservices`
+   `git clone https://github.com/zcloud-01/zcloud<nn>-icp-banking-microservices`
   	
 5. Take a look at the *banking-application* folder:
 
-   `cd zcloud.<nn>-icp-banking-microservices/banking-application`
+   `cd zcloud<nn>-icp-banking-microservices/banking-application`
    
    `dir `
        
@@ -237,7 +237,7 @@ The objective is to discover the banking application located in the *banking-app
    
    Enter github user credentials if prompted.
 
-4. Go back to your online Github repository *zcloud.<nn>-icp-banking-microservices* using the web browser. 
+4. Go back to your online Github repository *zcloud<nn>-icp-banking-microservices* using the web browser. 
 
    ![alt text](images/commit-push-repo.png "git push")
 	
@@ -280,11 +280,11 @@ The process is as follow:
    
    * Release name: zcloud<nn>-img
    * Target name space: techu 
-   * Git_repo Name:  zcloud.<nn>-icp-banking-microservices
+   * Git_repo Name:  zcloud<nn>-icp-banking-microservices
    
 7. Click on **Install".
 
-   This will initate a build of the banking application from the github repository you specified. The process pulls the source code from your github repository and builds the docker image based on the Dockerfile. The resulted docker image, **techu/zcloud.01-icp-banking-microservices** , will then be deployed to the ICP Docker image repository.
+   This will initate a build of the banking application from the github repository you specified. The process pulls the source code from your github repository and builds the docker image based on the Dockerfile. The resulted docker image, **techu/zcloud<nn>-icp-banking-microservices** , will then be deployed to the ICP Docker image repository.
 	
 8. Click on **View Helm Release**.
 
@@ -320,7 +320,7 @@ The objective is to discover the IBM Cloud private catalog in order to instantia
 	
    * Release name: zcloud<nn>-app
    * Target name space: techu 
-   * Image:  cluster67.icp:8500/techu/zcloud.<nn>-icp-banking-microservices
+   * Image:  cluster67.icp:8500/techu/zcloud<nn>-icp-banking-microservices
 	
 2. Click on **Install**. 
 
