@@ -128,6 +128,8 @@ The objective is to discover the banking application located in the *banking-app
    
    * Fill in all the required fields.
    
+    * For Title:  zcloud<nn>-mmdd where mmdd is the month and date (e.g zcloud01-0430)
+   
    * Click **Submit**.
 	
    Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
