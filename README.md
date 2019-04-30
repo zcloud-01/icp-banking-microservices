@@ -156,10 +156,16 @@ The objective is to discover the banking application located in the *banking-app
 
    * Click **Subscribe**.
 	
-8. Modify the *banking-application/public/js/bankingAPI.js* in your banking application.
+8. Modify the bankingAPI.js application.
 
+   * Go to the directory containing the bankingAPI.js file. 
+   
+   `cd zcloud(nn)-icp-banking-microservices/banking-application/public/js`
+   
    ![alt text](images/client_id_secret.png "javascript code")
-
+   
+   * Use your favorite editor, for example, on Windows workstation:  **notepad bankingAPI.js** 
+   
    * Replace *YOUR_CLIENT_ID_HERE* by your client ID value from the IBM API developer portal.
 
    * Replace *YOUR_CLIENT_SECRET_HERE* by your client Secret value from the IBM API developer portal.	
@@ -276,6 +282,14 @@ The process is as follow:
 8. Click on **View Helm Release**.
 
 9. When the Pod Status is **Completed**, the process is done.  The docker image is built successfully.
+
+10. Verify the image was built successfully.
+   
+   1. Click Menu (hamburger button on top left corner) -> Manage -> Images.
+   2. Search on **zcloud(nn)**.
+   3. You should see your image listed, similar to the following:
+   
+   ![alt text](images/icp-image.png "ICp image")
 
 ---
 
