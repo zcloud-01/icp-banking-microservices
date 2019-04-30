@@ -349,4 +349,4 @@ This code pattern is licensed under the Apache Software License, Version 2.  Sep
 * [IBM Cloud private - Knowledge Center](https://www.ibm.com/support/knowledgecenter/en/SSBS6K/product_welcome_cloud_private.html)
 
 [IBM ID]: https://www.ibm.com/account/us-en/signup/register.html
-[API Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apicoect.ibmcloud.com/
+[API Developer Portal]: https://developer-contest-spbodieusibmcom-prod.developer.us.apiconnect.ibmcloud.com/
