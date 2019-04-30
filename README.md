@@ -285,9 +285,9 @@ The process is as follow:
 
 10. Verify the image was built successfully.
    
-   1. Click Menu (hamburger button on top left corner) -> Manage -> Images.
-   2. Search on **zcloud(nn)**.
-   3. You should see your image listed, similar to the following:
+    1. Click Menu (hamburger button on top left corner) -> Manage -> Images.
+    2. Search on **zcloud(nn)**.
+    3. You should see your image listed, similar to the following:
    
    ![alt text](images/icp-image.png "ICp image")
 
