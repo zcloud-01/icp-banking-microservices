@@ -96,15 +96,15 @@ The objective is to discover the banking application located in the *banking-app
 
 1. Launch a terminal (Command Prompt).
 
-3. Clone your GitHub repository *zcloud<nn>-icp-banking-microservices* to create a local copy of the banking application:
+3. Clone your GitHub repository *zcloud(nn)-icp-banking-microservices* to create a local copy of the banking application:
 
-   `git clone https://github.com/zcloud-01/zcloud<nn>-icp-banking-microservices`
+   `git clone https://github.com/zcloud-01/zcloud(nn)-icp-banking-microservices`
   	
 5. Take a look at the *banking-application* folder:
 
-   `cd zcloud<nn>-icp-banking-microservices/banking-application`
+   `cd zcloud(nn)-icp-banking-microservices/banking-application`
    
-   `dir ` or `ls'
+   `dir ` or `ls`
        
   	* *app.js*: the application server code.
 	* *public/index.html*: the application client code (banking dashboard).
@@ -122,17 +122,17 @@ The objective is to discover the banking application located in the *banking-app
 
 5. Create a new application.
    
-   * Click **Apps** from the menu.
+   1. Click **Apps** from the menu.
    
-   * Click **Create new App**.
+   2. Click **Create new App**.
    
-   * Fill in all the required fields.
+   3. Fill in all the required fields.
    
-    * For Title:  zcloud<nn>-mmdd where mmdd is the month and date (e.g zcloud01-0430)
+   4. For Title:  **zcloud(nn)-mmdd** where mmdd is the month and date (e.g zcloud01-0430)
    
-   * Click **Submit**.
+   5. Click **Submit**.
 	
-   Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
+   6. Make a note of the *client ID* and *client Secret*. You will need them to access the API later.
 
    ![alt text](images/keyApplication.png "API Keys")
 
@@ -169,7 +169,7 @@ The objective is to discover the banking application located in the *banking-app
 
 1. Go to the banking application directory, if you are not there already.   
 
-    `cd zcloud<nn>-icp-banking-microservices/banking-application`
+    `cd zcloud(nn)-icp-banking-microservices/banking-application`
 
 2. Install Node.Js package dependencies of the banking application using : 
 
@@ -224,7 +224,7 @@ The objective is to discover the banking application located in the *banking-app
    
    Enter github user credentials if prompted.
 
-4. Go back to your online Github repository *zcloud<nn>-icp-banking-microservices* using the web browser. 
+4. Go back to your online Github repository *zcloud(nn)-icp-banking-microservices* using the web browser. 
 
    ![alt text](images/commit-push-repo.png "git push")
 	
@@ -265,13 +265,13 @@ The process is as follow:
 
 6. Fill in the following fields:
    
-   * Release name: zcloud<nn>-img
+   * Release name: zcloud(nn)-img
    * Target name space: techu 
-   * Git_repo Name:  zcloud<nn>-icp-banking-microservices
+   * Git_repo Name:  zcloud(nn)-icp-banking-microservices
    
 7. Click on **Install".
 
-   This will initate a build of the banking application from the github repository you specified. The process pulls the source code from your github repository and builds the docker image based on the Dockerfile. The resulted docker image, **techu/zcloud<nn>-icp-banking-microservices** , will then be deployed to the ICP Docker image repository.
+   This will initate a build of the banking application from the github repository you specified. The process pulls the source code from your github repository and builds the docker image based on the Dockerfile. The resulted docker image, **techu/zcloud(nn)-icp-banking-microservices** , will then be deployed to the ICP Docker image repository.
 	
 8. Click on **View Helm Release**.
 
@@ -305,9 +305,9 @@ The objective is to discover the IBM Cloud private catalog in order to instantia
 
    ![alt text](images/icp-install.png "Banking service configuration")
 	
-   * Release name: zcloud<nn>-app
+   * Release name: zcloud(nn)-app
    * Target name space: techu 
-   * Image:  cluster67.icp:8500/techu/zcloud<nn>-icp-banking-microservices
+   * Image:  cluster67.icp:8500/techu/zcloud(nn)-icp-banking-microservices
 	
 2. Click on **Install**. 
 
