@@ -102,7 +102,7 @@ The objective is to discover the banking application located in the *banking-app
   	
 5. Take a look at the *banking-application* folder:
 
-   `cd zcloud(nn)-icp-banking-microservices/banking-application`
+   `cd ~/zcloud(nn)-icp-banking-microservices/banking-application`
    
    `dir ` or `ls`
        
@@ -160,7 +160,7 @@ The objective is to discover the banking application located in the *banking-app
 
    * Go to the directory containing the bankingAPI.js file. 
    
-   `cd zcloud(nn)-icp-banking-microservices/banking-application/public/js`
+   `cd ~/zcloud(nn)-icp-banking-microservices/banking-application/public/js`
    
    ![alt text](images/client_id_secret.png "javascript code")
    
@@ -175,7 +175,7 @@ The objective is to discover the banking application located in the *banking-app
 
 1. Go to the banking application directory, if you are not there already.   
 
-    `cd zcloud(nn)-icp-banking-microservices/banking-application`
+    `cd ~/zcloud(nn)-icp-banking-microservices/banking-application`
 
 2. Install Node.Js package dependencies of the banking application using : 
 
