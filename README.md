@@ -253,7 +253,7 @@ In this workshop, an automatic process has been set up for you to build and depl
 
 The process is as follow:
 
-1. Login to the IBM Cloud private portal, https://148.100.111.67:8443, with your assigned credentials,
+1. Login to the IBM Cloud private portal, https://container.cloud.marist.edu:8443, with your assigned credentials.
 
 2. Access the catalog.
 
