@@ -321,7 +321,7 @@ The objective is to discover the IBM Cloud private catalog in order to instantia
 	
    * Release name: zcloud(nn)-app
    * Target name space: techu 
-   * Image:  cluster67.icp:8500/techu/zcloud(nn)-icp-banking-microservices
+   * Image:  cluster68.icp:8500/techu/zcloud(nn)-icp-banking-microservices
 	
 2. Click on **Install**. 
 
